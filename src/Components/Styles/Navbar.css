@@ -1,0 +1,21 @@
+.text-orange-A700 {
+    --tw-text-opacity: 1;
+    color: rgb(253 101 11 / var(--tw-text-opacity));
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  
+  .font-markoone {
+    font-family: Marko One;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .w-auto {
+    width: auto;
+  }

@@ -1,0 +1,221 @@
+.section1 {
+  background-color: rgb(255 247 240);
+}
+
+.bsrbtn {
+  padding: 0px 30px !important;
+}
+.section2col1,
+.section2col2 {
+  box-sizing: border-box;
+}
+@media screen and (min-width: 768px) {
+  /* CSS rules for screens smaller than 768px */
+  .bsrbtn {
+    padding: 0px 30px !important;
+  }
+  .section2-col1 {
+    min-width: 524px !important;
+    max-width: 524px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* CSS rules for screens smaller than 768px */
+  .bsrbtn {
+    padding: 0px 50px !important;
+  }
+}
+
+.section2col1 {
+  background-color: rgb(255 224 206) !important;
+}
+
+.sec2col2 {
+  background-color: rgb(251 238 230) !important;
+  min-width: 250px !important;
+  max-width: 250px !important;
+}
+
+@media screen and (max-width: 992px) {
+  /* CSS rules for screens smaller than 768px */
+  .section2col2 {
+    padding: 50px 0px !important;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  /* CSS rules for screens smaller than 512px */
+  .sec2col2 {
+    background-color: rgb(251 238 230) !important;
+    min-width: 150px !important;
+    max-width: 150px !important;
+    max-height: auto !important;
+    max-height: auto !important;
+  }
+  .section2h2 {
+    font-size: 15px !important;
+  }
+  .four_imgaes {
+    width: 100%;
+  }
+  .Big_img {
+    width: 100%;
+  }
+  .text-container h1 {
+    font: 22px;
+  }
+  .slider-item {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider_img {
+    width: 100%;
+  }
+}
+
+/* Example: Change font size on medium-sized screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .sec2col2 {
+    background-color: rgb(251 238 230) !important;
+    /*  min-width: auto !important;
+    max-width: auto !important; */
+  }
+  .section2h2 {
+    font-size: 25px !important;
+  }
+  .section2col1 {
+    min-width: 400px !important;
+    max-width: 400px !important;
+    max-height: 328px !important;
+    max-height: 328px !important;
+  }
+  .section2col2 {
+    min-width: 400px !important;
+    max-width: 400px !important;
+    max-height: 328px !important;
+    max-height: 328px !important;
+  }
+  .sec2col2 {
+    background-color: rgb(251 238 230) !important;
+    min-width: 200px !important;
+    max-width: 200px !important;
+    max-height: 150px !important;
+    max-height: 150px !important;
+  }
+  .section2h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* CSS rules for screens smaller than 768px */
+  .section2col1 {
+    min-width: 524px !important;
+    max-width: 524px !important;
+    max-height: 328px !important;
+    max-height: 328px !important;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .section2col2 {
+    min-width: 100% !important;
+    max-width: 100% !important;
+    max-height: auto !important;
+    max-height: auto !important;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  /* CSS rules for screens smaller than 768px */
+  .section2col1 {
+    min-width: 90% !important;
+    max-width: 90% !important;
+    max-height: 400px !important;
+    max-height: 400px !important;
+    margin-bottom: 20px;
+    padding: 20px !important;
+  }
+  .section2h1 {
+    font-size: 20px;
+  }
+  .sec1Form{
+    width: 90%;
+  }
+
+  .bsrbtn {
+    padding: 5px 30px !important;
+  }
+}
+
+@media screen and (min-width: 512px) {
+  .bsrbtn {
+    padding: 15px 50px !important;
+  }
+}
+@media screen and (max-width: 512px) {
+  .bsrbtn {
+    padding: 10px 30px !important;
+  }
+}
+
+/* Example: Change font size on medium-sized screens */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .bsrbtn {
+    padding: 15px 30px !important;
+  }
+  .Big_img {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .Big_img {
+    width: 400px;
+  }
+}
+
+.location-icon {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+/* Section 3 */
+.section3 {
+  background-color: #fff9f5;
+}
+.box_info {
+  width: 200px;
+}
+.info_heading {
+  font-size: 28px !important;
+}
+.info_text {
+  font-size: 18px !important;
+  color: #406f85;
+}
+.card_text {
+  font-size: 18px;
+  color: #636363 !important;
+}
+.property_pages {
+  list-style-type: none;
+}
+.prop_explore {
+  text-decoration: none;
+  color: #fd650b;
+}
+.quick_Link a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #406f85;
+}
+
+/* Section 5 */
+.section5 {
+  background-color: #fff9f6;
+}
